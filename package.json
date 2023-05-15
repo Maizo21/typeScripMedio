@@ -1,0 +1,25 @@
+{
+  "name": "typescriptintermedio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maizo21/typescriptIntermedio.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Hernan Amaiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maizo21/typescriptIntermedio/issues"
+  },
+  "homepage": "https://github.com/Maizo21/typescriptIntermedio#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
