@@ -1,8 +1,18 @@
-import { addProduct } from "./products/product.service";
+import { faker } from "@faker-js/faker";
+import { addProduct, products } from "./products/product.service";
 
-addProduct({
-  id: 1,
-  name: "Pizza",
-  price: 12.5,
-  size: "large",
-});
+for (let index = 0; index < 50; index++) {
+  addProduct({
+    name: faker.commerce.productName(),
+    image: faker.image.imageUrl(),
+    stock: faker.datatype.number({ min: 1, max: 100 }),
+    description: faker.commerce.productDescription(),
+    price: parseInt(faker.commerce.price()),
+    size: "S",
+    isNew: faker.datatype.boolean(),
+    tags: [faker.commerce.productMaterial()],
+    categoryId: faker.datatype.uuid(),
+  });
+}
+
+console.log(products);

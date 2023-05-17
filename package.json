@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Maizo21/typescriptIntermedio#readme",
   "devDependencies": {
+    "@faker-js/faker": "^8.0.1",
     "typescript": "^5.0.4"
   }
 }
